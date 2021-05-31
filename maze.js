@@ -9,7 +9,6 @@ $(document).ready(function () {
     $("#status").text('Click the "S" to begin.');
   });
 
-  
     $(".boundary").mouseover(function () {
         if (started) {
       $(".boundary").addClass("youlose");
